@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sai Harshit Balantrapu | Computational Materials Science</title>
+  <meta name="description" content="Portfolio of Sai Harshit Balantrapu — Computational Materials Science Researcher (ML potentials, molecular simulation, materials informatics)." />
+
+  <!-- Social preview (replace once you have a banner image) -->
+  <meta property="og:title" content="Sai Harshit Balantrapu | Computational Materials Science" />
+  <meta property="og:description" content="ML + simulation pipelines for materials discovery and structure–property modeling." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="icon" href="data:," />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">
+        <div class="brand__title">Sai Harshit Balantrapu</div>
+        <div class="brand__tag">Computational Materials Science Researcher</div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact" class="btn btn--primary">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <!-- HERO -->
+    <section class="hero" aria-label="Intro">
+      <div class="hero__left">
+        <p class="kicker">PhD • Computational Materials • AI/ML • Molecular Simulation</p>
+
+        <h1>
+          I build physics-grounded simulation + ML workflows
+          for structure–property understanding and materials design.
+        </h1>
+
+        <p class="lead">
+          My work spans ML interatomic potentials (e.g., MACE), molecular simulation (LAMMPS/GROMACS/OpenMM),
+          and materials informatics pipelines (screening, active learning, Bayesian optimization) — with
+          careful benchmarking against experiments and literature.
+        </p>
+
+        <div class="cta">
+          <a class="btn btn--primary" href="#projects">View Projects</a>
+          <a class="btn" href="https://github.com/sbalantr" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a class="btn" href="https://www.linkedin.com/in/YOUR_LINKEDIN/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+
+        <div class="chips" role="list" aria-label="Skills">
+          <span class="chip" role="listitem">MACE / ML-IAP</span>
+          <span class="chip" role="listitem">LAMMPS / ASE</span>
+          <span class="chip" role="listitem">GROMACS / OpenMM</span>
+          <span class="chip" role="listitem">RDKit / HTPolyNet</span>
+          <span class="chip" role="listitem">Active Learning / BO</span>
+          <span class="chip" role="listitem">HPC</span>
+        </div>
+      </div>
+
+      <div class="hero__right">
+        <div class="profile">
+          <!-- Optional: add assets/profile.jpg -->
+          <div class="profile__image" aria-hidden="true">
+            <img src="assets/profile.jpg" alt="" onerror="this.style.display='none'; this.parentElement.classList.add('profile__image--empty');" />
+          </div>
+          <div class="profile__card">
+            <div class="profile__cardTitle">Current Focus</div>
+            <ul class="profile__list">
+              <li>Amorphous silica: structure validation (RDF, S(Q), rings)</li>
+              <li>Dental resin polymers: cure + property screening</li>
+              <li>Simulation automation & reproducible HPC pipelines</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section__header">
+        <h2>About</h2>
+        <p>
+          I’m a computational materials researcher focused on bridging atomistic simulations with modern ML
+          to build reliable, interpretable models for disordered materials and polymer networks.
+        </p>
+      </div>
+
+      <div class="grid grid--2">
+        <article class="card">
+          <h3>What I do</h3>
+          <p>
+            Train and validate ML interatomic potentials, run large-scale MD workflows, extract
+            structural/thermomechanical properties, and build screening pipelines for design.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>How I work</h3>
+          <p>
+            Benchmark-first. I compare against literature/experiments, quantify uncertainty, and prioritize
+            reproducibility (clean repos, clear configs, automated analyses).
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section__header">
+        <h2>Projects</h2>
+        <p>Selected work across ML potentials, polymer design, and MD analysis. (Replace links/titles as needed.)</p>
+      </div>
+
+      <div class="grid grid--3">
+        <article class="card card--project">
+          <div class="card__top">
+            <h3>MACE for Amorphous Silica</h3>
+            <span class="badge">ML Potentials</span>
+          </div>
+          <p>
+            Train and validate equivariant ML-IAPs; evaluate RDFs, partial PDFs, structure factors,
+            angle distributions, and ring statistics across melt–quench protocols.
+          </p>
+          <div class="card__actions">
+            <a class="btn btn--small" href="https://github.com/sbalantr" target="_blank" rel="noreferrer">Code ↗</a>
+            <a class="btn btn--small" href="#" target="_blank" rel="noreferrer">Summary ↗</a>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__top">
+            <h3>Dental Resin Screening Pipeline</h3>
+            <span class="badge">Polymers</span>
+          </div>
+          <p>
+            RDKit enumeration → HTPolyNet curing simulations → property extraction (DC, shrinkage, Tg, modulus)
+            → multi-objective ranking with active learning / BO.
+          </p>
+          <div class="card__actions">
+            <a class="btn btn--small" href="https://github.com/sbalantr" target="_blank" rel="noreferrer">Code ↗</a>
+            <a class="btn btn--small" href="#" target="_blank" rel="noreferrer">Results ↗</a>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__top">
+            <h3>Electrode / Ionic-Liquid MD</h3>
+            <span class="badge">MD + Analysis</span>
+          </div>
+          <p>
+            Constant-potential workflows, image-charge methods, and transport-property analysis
+            (conductivity/viscosity) with robust statistics and reproducible scripts.
+          </p>
+          <div class="card__actions">
+            <a class="btn btn--small" href="https://github.com/sbalantr" target="_blank" rel="noreferrer">Code ↗</a>
+            <a class="btn btn--small" href="#" target="_blank" rel="noreferrer">Notes ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="section">
+      <div class="section__header">
+        <h2>Publications</h2>
+        <p>Add papers, preprints, posters, and talks. (You can keep this even if you’re early-stage—use “In preparation”.)</p>
+      </div>
+
+      <div class="list">
+        <article class="list__item">
+          <div class="list__title">Paper / Preprint Title (Replace)</div>
+          <div class="list__meta">Authors • Venue • Year</div>
+          <div class="list__links">
+            <a class="link" href="#" target="_blank" rel="noreferrer">PDF</a>
+            <span class="dot">•</span>
+            <a class="link" href="#" target="_blank" rel="noreferrer">Code</a>
+            <span class="dot">•</span>
+            <a class="link" href="#" target="_blank" rel="noreferrer">DOI</a>
+          </div>
+        </article>
+
+        <article class="list__item">
+          <div class="list__title">Project Manuscript (In preparation)</div>
+          <div class="list__meta">Computational Materials Science • 2026</div>
+          <div class="list__links">
+            <a class="link" href="#" target="_blank" rel="noreferrer">Abstract</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="section">
+      <div class="section__header">
+        <h2>Resume</h2>
+        <p>Keep a PDF here so recruiters can access it in one click.</p>
+      </div>
+
+      <div class="card card--wide">
+        <div class="resumeBox">
+          <div>
+            <div class="resumeBox__title">Sai Harshit Balantrapu — Resume</div>
+            <div class="resumeBox__meta">Updated: <span id="lastUpdated"></span></div>
+          </div>
+          <div class="resumeBox__actions">
+            <a class="btn btn--primary" href="resume/SaiHarshitBalantrapu_Resume.pdf" target="_blank" rel="noreferrer">Open PDF ↗</a>
+            <a class="btn" href="resume/SaiHarshitBalantrapu_Resume.pdf" download>Download</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section--last">
+      <div class="section__header">
+        <h2>Contact</h2>
+        <p>Replace the email + LinkedIn below and you’re done.</p>
+      </div>
+
+      <div class="grid grid--2">
+        <article class="card">
+          <h3>Email</h3>
+          <p><a class="link" href="mailto:YOUR_EMAIL">YOUR_EMAIL</a></p>
+          <p class="muted small">Tip: use your .edu or a professional Gmail.</p>
+        </article>
+
+        <article class="card">
+          <h3>Links</h3>
+          <p><a class="link" href="https://www.linkedin.com/in/YOUR_LINKEDIN/" target="_blank" rel="noreferrer">LinkedIn ↗</a></p>
+          <p><a class="link" href="https://github.com/sbalantr" target="_blank" rel="noreferrer">GitHub ↗</a></p>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__left">
+        © <span id="year"></span> Sai Harshit Balantrapu
+      </div>
+      <div class="footer__right">
+        Built on GitHub Pages • <a class="link" href="#main">Back to top</a>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    // A simple "Updated" field for resume section:
+    document.getElementById("lastUpdated").textContent = new Date().toLocaleDateString(undefined, { year:'numeric', month:'short' });
+  </script>
+</body>
+</html>
